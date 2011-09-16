@@ -13,6 +13,12 @@ class AppDelegate
     # Insert code here to initialize your application
   end
   
+  
+  def open_preferences(sender)
+    puts 'prefs'
+  end
+  
+  
   def windowWillClose(notification)
     exit
   end
