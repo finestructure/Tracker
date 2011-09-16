@@ -14,11 +14,6 @@ class AppDelegate
   end
   
   
-  def open_preferences(sender)
-    puts 'prefs'
-  end
-  
-  
   def windowWillClose(notification)
     exit
   end
